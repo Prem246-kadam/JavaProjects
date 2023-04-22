@@ -66,10 +66,10 @@ public class StudentDatabase {
             StudentDatabase db = new StudentDatabase(url, user, password);
 
             // Add a new student
-            db.addStudent("John Doe", 22, "john.doe@example.com");
+            db.addStudent("Prem", 22, "premkdam246@gmail.com");
 
             // Update an existing student
-            db.updateStudent(1, "Jane Doe", 21, "jane.doe@example.com");
+            db.updateStudent(1, "Suraj", 21, "premkdam23@gmail.com");
 
             // Delete a student
             db.deleteStudent(1);
