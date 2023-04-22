@@ -19,7 +19,7 @@ import java.sql.*;
 
 public class StudentDatabase {
 
-    private Connection conn;
+    private Connection conn ;
 
     public StudentDatabase(String url, String user, String password) throws SQLException {
         conn = DriverManager.getConnection(url, user, password);
